@@ -60,6 +60,10 @@
 - File info dialog (type, size, mode, uid/gid, dates, link target, copy-path button).
 - Rename, permissions, and delete-confirmation dialogs.
 - Text preview sheet with an in-place editor and Save.
+- Markdown files (`.md`) open in a rendered preview — headings, lists, links, code
+  blocks, blockquotes, tables, and task lists — with a Rendered/Source toggle so the
+  raw Markdown and the editor stay one tap away. Render client-side and sanitize the
+  HTML output before injecting it.
 - File downloads via base64 → Blob object URL.
 - Folder download with a progress dialog and cancel button: poll the chunked endpoint
   and assemble the file preferentially in OPFS (Origin Private File System),

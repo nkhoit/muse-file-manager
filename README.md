@@ -17,6 +17,9 @@ editing, and organizing files on the agent host's real filesystem.
   (`Ctrl+T` / `Ctrl+W` / `Ctrl+Tab`).
 - **Preview & edit text files** — in-place text editor with Save (files up to 1 MB).
   Binary files and oversized files get explicit non-preview states instead of garbage.
+- **Rendered markdown preview** — `.md` files open formatted (headings, lists, links,
+  code blocks, blockquotes, tables, task lists), with a Rendered/Source toggle keeping
+  the raw text and editor one tap away.
 - **Full file operations** — create files/folders, rename, copy (with automatic
   `" copy"` naming on collision), move via copy/paste clipboard bar, delete
   (with confirmation), and chmod-style permission editing.
