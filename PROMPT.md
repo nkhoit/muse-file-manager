@@ -69,6 +69,10 @@
   and assemble the file preferentially in OPFS (Origin Private File System),
   falling back to an in-memory Blob; then trigger the download.
 - Toast notices for action results.
+- Refresh: an always-visible Refresh button in the file actions area (usable inside
+  the Muse app, where a hidden/discoverable control won't do) alongside the compact
+  top-bar refresh icon. Both re-fetch the current directory listing; while a refresh
+  is running, both controls show a disabled loading state.
 
 ## Design language
 
