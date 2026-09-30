@@ -8,6 +8,8 @@ editing, and organizing files on the agent host's real filesystem.
 > another Muse agent can recreate the same app from scratch. See
 > [PROMPT.md](PROMPT.md) for the copy-paste build prompt.
 
+![File Manager screenshot](assets/screenshot.png)
+
 ## What it does
 
 - **Browse** the host filesystem starting at `/home/hatch` (configurable root), with
